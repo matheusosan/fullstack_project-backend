@@ -1,11 +1,11 @@
 version: "3"
 
 services:
-  prisma-node-api:
+  prisma-node-api2:
     image: postgres:alpine
     ports: 
       - "5435:5432"
-    container_name: "prisma-node-api"
+    container_name: "prisma-node-api2"
     restart: always
     volumes:
       - ./my-api:/var/lib/postgresql/data
